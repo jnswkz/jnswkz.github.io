@@ -70,11 +70,11 @@ description: >- # used by seo meta and the atom feed
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "korl0rriu.github.io"
 
-# github:
-#   username: github_username # change to your github username
+github:
+  username: korl0rriu # change to your github username
 
-# twitter:
-#   username: twitter_username # change to your twitter username
+twitter:
+  username: twitter_username # change to your twitter username
 
 social:
   # Change to your full name.
