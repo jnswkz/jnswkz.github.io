@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Hello world"
+date:   2023-11-24 17:10:33 +0700
+categories: stuff
+---
+
+Ok let's go
