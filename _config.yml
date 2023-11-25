@@ -1,56 +1,11 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# The Site Configuration
 
-title: korl0rriu
-email: nhlgsus@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  jns the blogo
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "korl0rriu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: k0rl0rriu
-github_username:  k0rl0rriu
-
-# Build settings
+# Import the theme
 theme: jekyll-theme-chirpy
-plugins:
-  - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
+# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
+# otherwise, the layout language will use the default value of 'en'.
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
@@ -59,12 +14,12 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-# title: Chirpy # the main title
+title: korl0rriu # the main title
 
-# tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: jns the blogogog # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  jns the blogog
+  stuff
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -74,7 +29,10 @@ github:
   username: korl0rriu # change to your github username
 
 twitter:
-  username: twitter_username # change to your twitter username
+  username: korl0rriu # change to your twitter username
+
+# linkedin:
+#   username: korl0rriu # change to your linkedin username
 
 social:
   # Change to your full name.
@@ -83,11 +41,12 @@ social:
   email: nhlgsus@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/korl0rriu # change to your twitter homepage
-    - https://github.com/korl0rriu # change to your github homepage
+    - https://twitter.com/username # change to your twitter homepage
+    - https://github.com/username # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/korl0rriu
+    
 
 google_site_verification: # fill in to your verification string
 
