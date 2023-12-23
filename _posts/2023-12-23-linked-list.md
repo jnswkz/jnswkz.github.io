@@ -74,7 +74,7 @@ while(p != NULL){
 }
 ```
 
-## print list
+### print list: 
 ```cpp 
 void printList(LIST l){
     Node *p;
