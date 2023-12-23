@@ -8,4 +8,4 @@ order: 4
 
 NHLG, VNUHCM-UIT, currently workin with data stuff...
 
-![xqmf](../pic/bio.png)
+![xqmf](https://korl0rriu.github.io/pic/bio.png)
