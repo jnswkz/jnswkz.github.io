@@ -7,3 +7,5 @@ order: 4
 > sth 'bout me
 
 NHLG, VNUHCM-UIT, currently workin with data stuff...
+
+![xqmf](../pic/bio.png)
