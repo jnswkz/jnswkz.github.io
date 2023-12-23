@@ -15,7 +15,7 @@ mermaid: true
 1. The data part : Save node's data
 2. The linking part : Save the address of the next node in the list or NULL if it's the last node.
 
-### Data structure of a node 
+## Data structure of a node 
 
 ```cpp
 typedef struct tagNode{
@@ -24,7 +24,7 @@ typedef struct tagNode{
 }Node;
 
 ```
-### Data structure of a list
+## Data structure of a list
 
 ```cpp
 typedef struct tagList{
@@ -33,7 +33,7 @@ typedef struct tagList{
 
 }LIST;
 ```
-### Basic stuff to do with single linked list
+# Basic stuff to do with single linked list
 1. Create a NULL list
 2. Create a node which contains data equal `x`
 3. Review list
@@ -44,14 +44,14 @@ typedef struct tagList{
 
 > with `x` is a integer in all examples below
 
-### Create a NULL list
+## Create a NULL list
 ```cpp
 void createList(LIST &l){
     l.pHead = l.pTail = NULL;
 }
 ```
 
-### Create a node which contains data equal `x`
+## Create a node which contains data equal `x`
 
 ```cpp
 Node* createNode(int x){
@@ -64,7 +64,7 @@ Node* createNode(int x){
 }
 ```
 
-### Review List
+## Review List
 ```cpp
 Node *p;
 p = l.pHead;
@@ -86,7 +86,7 @@ void printList(LIST l){
     }
 }
 ```
-### Search a node contains data equal `x`
+## Search a node contains data equal `x`
 
 ```cpp
 Node *search(LIST l, int x){
@@ -98,4 +98,4 @@ Node *search(LIST l, int x){
 }
 ```
 
-### Insert a node `x` into the list
+## Insert a node `x` into the list
