@@ -217,7 +217,8 @@ void selectionSort(LIST &l){
         swap(min->data, p->data);
         p = p-> pNext;
     }
-}```
+}
+```
 
 - Quick sort
 
