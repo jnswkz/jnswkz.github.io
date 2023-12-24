@@ -1,7 +1,7 @@
 ---
 title: Single Linked List
 date: 2023-12-23 17:43:00 +0700
-categories: [Blogging, dsa]
+categories: [Blogging, DSA]
 tags: [typography]
 pin: true
 math: true
