@@ -112,6 +112,30 @@ refactor: true
   {% endfor %}
 </div>
 <!-- #post-list -->
+<!-- test audio -->
+<audio id="myAudio" autoplay>
+  <source src="./sml.mp3" type="audio/ogg">
+  <source src="./sml.mp3" type="audio/mpeg">
+</audio>
+
+<p>
+  <button onclick="playAudio()">▶️</button>
+  <button onclick="pauseAudio()">⏸️</button>
+</p>
+
+<script>
+  function playAudio() {
+    var audio = document.getElementById("myAudio");
+    audio.play();
+  }
+
+  function pauseAudio() {
+    var audio = document.getElementById("myAudio");
+    audio.pause();
+  }
+</script>
+
+<!-- end test audio -->
 
 {% if paginator.total_pages > 1 %}
   {% include post-paginator.html %}
