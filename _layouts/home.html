@@ -123,15 +123,11 @@ refactor: true
 </div> -->
 
 <script>
-  function playAudio() {
-    var audio = document.getElementById("myAudio");
-    audio.play();
-  }
-
-  function pauseAudio() {
-    var audio = document.getElementById("myAudio");
-    audio.pause();
-  }
+  var audio = document.getElementById("myAudio");
+  audio.addEventListener("ended", function () {
+    this.currentTime = 0;
+    this.play();
+  });
 </script>
 
 <!-- end test audio -->
