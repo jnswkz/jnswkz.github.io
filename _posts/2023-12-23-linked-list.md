@@ -180,3 +180,85 @@ int removeAfterQ(LIST &l , Node *q, int &data){
         return 0;
 }
 ```
+- Delete a node with data equal `x`
+
+```cpp
+int deleteX(LIST &l, int x){
+    Node *p, *q;
+    p = search(l, x);
+    q = l.pHead ;
+    while (q != l.pTail){
+        if ( q -> pNext == p){
+            break;
+        }
+    }
+    int temp;
+    return removeAfterQ(l, q, temp);
+}
+```
+
+## Sort a list
+
+- Selection sort
+```cpp
+void selectionSort(LIST &l){
+    Node *p, *q, *min;
+    p = l.pHead;
+    while (p != l.pTail)
+    {
+        min = p;
+        q = p-> pNext;
+        while(q!= NULL){
+            if (q->data < p->data){
+                min = q;
+            }
+            q = q-> pNext;
+        }
+        swap(min->data, p->data);
+        p = p-> pNext;
+    }
+}```
+
+- Quick sort
+
+```cpp
+void quickSort(LIST &l){
+    Node *x, *p;
+    LIST l1, l2;
+    if (l.pHead == l.pTail){
+        return ;
+    }
+    createList(l1);
+    createList(l2);
+    x = l.pHead;
+    l.pHead = x -> pNext;
+    while (l.pHead != NULL){
+        p = l.pHead;
+        l.pHead = p-> pNext;
+        p->pNext = NULL;
+        if (p->data <= x->data){
+            addHead(l1, p);
+        }
+        else{
+            addHead(l2, p);
+        }
+    }
+    quickSort(l1);
+    quickSort(l2);
+    if (l1.pHead != NULL){
+        l.pHead = l1.pHead;
+        l1.pTail -> pNext = x;
+    }
+    else{
+        l.pHead = x;
+        
+    }
+    x-> pNext = l2.pHead;
+    if (l2.pHead != NULL){
+        l.pTail = l2.pTail;
+    }
+    else 
+        l.pTail = x;
+
+}
+```
