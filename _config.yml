@@ -14,7 +14,7 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: korl0rriu # the main title
+title: jnswkz # the main title
 
 tagline: jns the blogogog # it will display as the sub-title
 
@@ -23,10 +23,10 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "korl0rriu.github.io"
+url: "jnswkz.github.io"
 
 github:
-  username: korl0rriu # change to your github username
+  username: jnswkz # change to your github username
 
 twitter:
   username: korl0rriu # change to your twitter username
@@ -41,7 +41,7 @@ social:
   email: nhlgsus@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://www.linkedin.com/in/korl0rriu
+    - https://www.linkedin.com/in/jnswkz
     - https://twitter.com/username # change to your twitter homepage
     - https://github.com/username # change to your github homepage
     # Uncomment below to add more social links
@@ -78,7 +78,7 @@ theme_mode: # [light|dark]
 # img_cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "https://korl0rriu.github.io/pic/avt2.jpg"
+avatar: "https://jnswkz.github.io/pic/avt2.jpg"
 
 # boolean type, the global switch for TOC in posts.
 toc: true
